@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Material" representedClassName="Material" syncable="YES" codeGenerationType="class">
+        <attribute name="materials" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="relationship" inverseEntity="Type" syncable="YES"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="relationship" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" syncable="YES" codeGenerationType="class">
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Material" inverseName="relationship1" inverseEntity="Material" syncable="YES"/>
+    </entity>
+    <entity name="Type" representedClassName="Type" syncable="YES" codeGenerationType="class">
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Material" inverseName="relationship" inverseEntity="Material" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Type" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Material" positionX="-54" positionY="-9" width="128" height="90"/>
+        <element name="Project" positionX="-36" positionY="9" width="128" height="60"/>
+    </elements>
+</model>
