@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE0CF0C1E4E3FCC004B1303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CF0B1E4E3FCC004B1303 /* AppDelegate.swift */; };
+		4CE0CF0E1E4E3FCC004B1303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CF0D1E4E3FCC004B1303 /* ViewController.swift */; };
+		4CE0CF111E4E3FCC004B1303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0CF0F1E4E3FCC004B1303 /* Main.storyboard */; };
+		4CE0CF141E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CF121E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodeld */; };
+		4CE0CF161E4E3FCC004B1303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0CF151E4E3FCC004B1303 /* Assets.xcassets */; };
+		4CE0CF191E4E3FCC004B1303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0CF171E4E3FCC004B1303 /* LaunchScreen.storyboard */; };
+		4CE0CF241E4E3FCC004B1303 /* Field_Estimator_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CF231E4E3FCC004B1303 /* Field_Estimator_2_0Tests.swift */; };
+		4CE0CF2F1E4E3FCD004B1303 /* Field_Estimator_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0CF2E1E4E3FCD004B1303 /* Field_Estimator_2_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE0CF201E4E3FCC004B1303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE0CF001E4E3FCC004B1303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE0CF071E4E3FCC004B1303;
+			remoteInfo = "Field Estimator 2.0";
+		};
+		4CE0CF2B1E4E3FCD004B1303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE0CF001E4E3FCC004B1303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE0CF071E4E3FCC004B1303;
+			remoteInfo = "Field Estimator 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE0CF081E4E3FCC004B1303 /* Field Estimator 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Estimator 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE0CF0B1E4E3FCC004B1303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CE0CF0D1E4E3FCC004B1303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CE0CF101E4E3FCC004B1303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CE0CF131E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Field_Estimator_2_0.xcdatamodel; sourceTree = "<group>"; };
+		4CE0CF151E4E3FCC004B1303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CE0CF181E4E3FCC004B1303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CE0CF1A1E4E3FCC004B1303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE0CF1F1E4E3FCC004B1303 /* Field Estimator 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field Estimator 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE0CF231E4E3FCC004B1303 /* Field_Estimator_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_Estimator_2_0Tests.swift; sourceTree = "<group>"; };
+		4CE0CF251E4E3FCC004B1303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE0CF2A1E4E3FCD004B1303 /* Field Estimator 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field Estimator 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE0CF2E1E4E3FCD004B1303 /* Field_Estimator_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_Estimator_2_0UITests.swift; sourceTree = "<group>"; };
+		4CE0CF301E4E3FCD004B1303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE0CF051E4E3FCC004B1303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF1C1E4E3FCC004B1303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF271E4E3FCD004B1303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE0CEFF1E4E3FCC004B1303 = {
+			isa = PBXGroup;
+			children = (
+				4CE0CF0A1E4E3FCC004B1303 /* Field Estimator 2.0 */,
+				4CE0CF221E4E3FCC004B1303 /* Field Estimator 2.0Tests */,
+				4CE0CF2D1E4E3FCD004B1303 /* Field Estimator 2.0UITests */,
+				4CE0CF091E4E3FCC004B1303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE0CF091E4E3FCC004B1303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0CF081E4E3FCC004B1303 /* Field Estimator 2.0.app */,
+				4CE0CF1F1E4E3FCC004B1303 /* Field Estimator 2.0Tests.xctest */,
+				4CE0CF2A1E4E3FCD004B1303 /* Field Estimator 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE0CF0A1E4E3FCC004B1303 /* Field Estimator 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0CF0B1E4E3FCC004B1303 /* AppDelegate.swift */,
+				4CE0CF0D1E4E3FCC004B1303 /* ViewController.swift */,
+				4CE0CF0F1E4E3FCC004B1303 /* Main.storyboard */,
+				4CE0CF151E4E3FCC004B1303 /* Assets.xcassets */,
+				4CE0CF171E4E3FCC004B1303 /* LaunchScreen.storyboard */,
+				4CE0CF1A1E4E3FCC004B1303 /* Info.plist */,
+				4CE0CF121E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodeld */,
+			);
+			path = "Field Estimator 2.0";
+			sourceTree = "<group>";
+		};
+		4CE0CF221E4E3FCC004B1303 /* Field Estimator 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0CF231E4E3FCC004B1303 /* Field_Estimator_2_0Tests.swift */,
+				4CE0CF251E4E3FCC004B1303 /* Info.plist */,
+			);
+			path = "Field Estimator 2.0Tests";
+			sourceTree = "<group>";
+		};
+		4CE0CF2D1E4E3FCD004B1303 /* Field Estimator 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0CF2E1E4E3FCD004B1303 /* Field_Estimator_2_0UITests.swift */,
+				4CE0CF301E4E3FCD004B1303 /* Info.plist */,
+			);
+			path = "Field Estimator 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE0CF071E4E3FCC004B1303 /* Field Estimator 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE0CF331E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0" */;
+			buildPhases = (
+				4CE0CF041E4E3FCC004B1303 /* Sources */,
+				4CE0CF051E4E3FCC004B1303 /* Frameworks */,
+				4CE0CF061E4E3FCC004B1303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Field Estimator 2.0";
+			productName = "Field Estimator 2.0";
+			productReference = 4CE0CF081E4E3FCC004B1303 /* Field Estimator 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE0CF1E1E4E3FCC004B1303 /* Field Estimator 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE0CF361E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0Tests" */;
+			buildPhases = (
+				4CE0CF1B1E4E3FCC004B1303 /* Sources */,
+				4CE0CF1C1E4E3FCC004B1303 /* Frameworks */,
+				4CE0CF1D1E4E3FCC004B1303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE0CF211E4E3FCC004B1303 /* PBXTargetDependency */,
+			);
+			name = "Field Estimator 2.0Tests";
+			productName = "Field Estimator 2.0Tests";
+			productReference = 4CE0CF1F1E4E3FCC004B1303 /* Field Estimator 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CE0CF291E4E3FCD004B1303 /* Field Estimator 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE0CF391E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0UITests" */;
+			buildPhases = (
+				4CE0CF261E4E3FCD004B1303 /* Sources */,
+				4CE0CF271E4E3FCD004B1303 /* Frameworks */,
+				4CE0CF281E4E3FCD004B1303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE0CF2C1E4E3FCD004B1303 /* PBXTargetDependency */,
+			);
+			name = "Field Estimator 2.0UITests";
+			productName = "Field Estimator 2.0UITests";
+			productReference = 4CE0CF2A1E4E3FCD004B1303 /* Field Estimator 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE0CF001E4E3FCC004B1303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Karl Gilbertson";
+				TargetAttributes = {
+					4CE0CF071E4E3FCC004B1303 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYREP5GWS3;
+						ProvisioningStyle = Automatic;
+					};
+					4CE0CF1E1E4E3FCC004B1303 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYREP5GWS3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CE0CF071E4E3FCC004B1303;
+					};
+					4CE0CF291E4E3FCD004B1303 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYREP5GWS3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CE0CF071E4E3FCC004B1303;
+					};
+				};
+			};
+			buildConfigurationList = 4CE0CF031E4E3FCC004B1303 /* Build configuration list for PBXProject "Field Estimator 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CE0CEFF1E4E3FCC004B1303;
+			productRefGroup = 4CE0CF091E4E3FCC004B1303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE0CF071E4E3FCC004B1303 /* Field Estimator 2.0 */,
+				4CE0CF1E1E4E3FCC004B1303 /* Field Estimator 2.0Tests */,
+				4CE0CF291E4E3FCD004B1303 /* Field Estimator 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE0CF061E4E3FCC004B1303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE0CF191E4E3FCC004B1303 /* LaunchScreen.storyboard in Resources */,
+				4CE0CF161E4E3FCC004B1303 /* Assets.xcassets in Resources */,
+				4CE0CF111E4E3FCC004B1303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF1D1E4E3FCC004B1303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF281E4E3FCD004B1303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE0CF041E4E3FCC004B1303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE0CF0E1E4E3FCC004B1303 /* ViewController.swift in Sources */,
+				4CE0CF0C1E4E3FCC004B1303 /* AppDelegate.swift in Sources */,
+				4CE0CF141E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF1B1E4E3FCC004B1303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE0CF241E4E3FCC004B1303 /* Field_Estimator_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE0CF261E4E3FCD004B1303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE0CF2F1E4E3FCD004B1303 /* Field_Estimator_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE0CF211E4E3FCC004B1303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE0CF071E4E3FCC004B1303 /* Field Estimator 2.0 */;
+			targetProxy = 4CE0CF201E4E3FCC004B1303 /* PBXContainerItemProxy */;
+		};
+		4CE0CF2C1E4E3FCD004B1303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE0CF071E4E3FCC004B1303 /* Field Estimator 2.0 */;
+			targetProxy = 4CE0CF2B1E4E3FCD004B1303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE0CF0F1E4E3FCC004B1303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE0CF101E4E3FCC004B1303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE0CF171E4E3FCC004B1303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE0CF181E4E3FCC004B1303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE0CF311E4E3FCD004B1303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE0CF321E4E3FCD004B1303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE0CF341E4E3FCD004B1303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CE0CF351E4E3FCD004B1303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4CE0CF371E4E3FCD004B1303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Field Estimator 2.0.app/Field Estimator 2.0";
+			};
+			name = Debug;
+		};
+		4CE0CF381E4E3FCD004B1303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Field Estimator 2.0.app/Field Estimator 2.0";
+			};
+			name = Release;
+		};
+		4CE0CF3A1E4E3FCD004B1303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Field Estimator 2.0";
+			};
+			name = Debug;
+		};
+		4CE0CF3B1E4E3FCD004B1303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XYREP5GWS3;
+				INFOPLIST_FILE = "Field Estimator 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chemiclyst-Brewing.Field-Estimator-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Field Estimator 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE0CF031E4E3FCC004B1303 /* Build configuration list for PBXProject "Field Estimator 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE0CF311E4E3FCD004B1303 /* Debug */,
+				4CE0CF321E4E3FCD004B1303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE0CF331E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE0CF341E4E3FCD004B1303 /* Debug */,
+				4CE0CF351E4E3FCD004B1303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE0CF361E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE0CF371E4E3FCD004B1303 /* Debug */,
+				4CE0CF381E4E3FCD004B1303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE0CF391E4E3FCD004B1303 /* Build configuration list for PBXNativeTarget "Field Estimator 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE0CF3A1E4E3FCD004B1303 /* Debug */,
+				4CE0CF3B1E4E3FCD004B1303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CE0CF121E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CE0CF131E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodel */,
+			);
+			currentVersion = 4CE0CF131E4E3FCC004B1303 /* Field_Estimator_2_0.xcdatamodel */;
+			path = Field_Estimator_2_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CE0CF001E4E3FCC004B1303 /* Project object */;
+}
